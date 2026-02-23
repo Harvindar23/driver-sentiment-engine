@@ -1,0 +1,12 @@
+POST http://localhost:8080/feedback
+Content-Type: application/json
+
+{
+  "driverId": "D1",
+  "employeeId": "E1",
+  "text": "Driver was rude and unsafe"
+}
+
+###
+
+GET http://localhost:8080/admin/drivers
